@@ -1,0 +1,30 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 80%;
+    max-width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-btn {
+    align-self: flex-end;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
