@@ -74,7 +74,7 @@ const App: React.FC = () => {
 
     return (
         <div className="App">
-            <h1>Modul de Generare Raport</h1>
+            <h1>Raportare</h1>
 
             <button onClick={openReport}>Deschide Raport</button>
 
